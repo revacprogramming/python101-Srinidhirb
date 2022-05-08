@@ -1,3 +1,5 @@
-# Variables, Expressions & Statements
 
-hrs = float(input("Enter hours? "))
+hrs = input("Enter Hours:")
+rate = input("enter rate :")
+pay = float(hrs) * float(rate)
+print("Pay:",pay)
