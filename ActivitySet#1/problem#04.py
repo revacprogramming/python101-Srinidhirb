@@ -10,4 +10,4 @@ if(h>40) :
 else :
     pay = h*r
     print(pay)
-    
+
