@@ -7,8 +7,8 @@ for line in handle:
     if not line.startswith('From:'):
         continue
     words=line.split()
-    y =( words[1:])
-    for word in y:
+    a =( words[1:])
+    for word in a:
        x[word]=x.get(word,0) +1 
        
     largestcount = 0
