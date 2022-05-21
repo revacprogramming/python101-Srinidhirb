@@ -1,6 +1,6 @@
 score = input("Enter Score: ")
 sc = float(score)
-if sc > 0.0 and sc < 1.0 :
+if sc > 0.0  and sc < 1.0 :
     
     if sc >= 0.9:
         print('A')
@@ -11,6 +11,6 @@ if sc > 0.0 and sc < 1.0 :
     elif sc >= 0.6:
         print('D')
     else:
-        print('F')
+       print('F')
 else :
     print("enter valid marks within 0.0 to 1.0")
