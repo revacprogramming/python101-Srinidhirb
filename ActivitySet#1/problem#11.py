@@ -8,7 +8,7 @@ for line in handle:
         a=line.split()
         x=a[5]
         y=x[0:2]
-        d[y]=d.get(y,0)+1
+        d[y]= d.get(y,0)+1
 
 lst=list()        
 for value,count in d.items():
