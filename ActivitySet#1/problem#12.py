@@ -1,12 +1,11 @@
-import re
-file=input('enter the file name:')
+import re 
+file = input('enter the file name')
 fhand=open(file)
-number=list()
+number = list()
 for line in fhand:
-    line=line.rstrip()
-    nums = re.findall('[0-9]+',line)
-    for i in nums:
-        num=int(i)
-        number.append(num)
-    
+  x = line.rstrip()
+  y= re.findall('[0-9]+',x)
+  for a in y :
+    a=int(y)
+    number.append(a)
 print(sum(number))
