@@ -1,14 +1,16 @@
 
 def add(a, b):
-    pass  # ...
-
+    q=int(a)
+    p=int(b)
+    sum = q+p
 
 def output(a, b, sum):
-    pass  # ...
+    print('the sum of a and b is sum')  # ...
 
 
 def main():
-    a, b = input_two_numbers()
+    a = input()
+    b = input()
     sum = add(a, b)
 
     output(a, b, sum)
