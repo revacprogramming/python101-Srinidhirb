@@ -1,4 +1,4 @@
-import re 
+ import re 
 file = input('enter the file name')
 fhand=open(file)
 number = list()
