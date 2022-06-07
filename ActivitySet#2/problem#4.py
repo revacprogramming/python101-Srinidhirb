@@ -15,7 +15,7 @@ def cs_to_lot(cs,lst):
         #lst.append(test)
     return lst
 
-#"""convert list of strings to connected string"""
+#"""convert list  of strings to connected string"""
 def lot_to_cs(lot):
     fc=list()
     fest=None
