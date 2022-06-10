@@ -1,5 +1,5 @@
  import re 
-file = input('enter the file name')
+file = input('enter the fi le name')
 fhand=open(file)
 number = list()
 for line in fhand:
