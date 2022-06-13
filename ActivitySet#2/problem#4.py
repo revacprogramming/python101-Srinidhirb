@@ -34,9 +34,9 @@ def main():
     lot=list()
     lot = cs_to_lot(cs,lot)
     print(lot)
-    #out=dict()
-    #cs=lot_to_cs(lot) 
-    #print(out.items())
+    out=dict()
+    cs=lot_to_cs(lot) 
+    print(out.items())
     cs=lot_to_cs(lot)
     print(cs)
     
