@@ -9,7 +9,7 @@ def cs_to_dict(cs):
 
 
 def dict_to_cs(d):
-    """convert a dictionary to connect string"""
+    """convert a di ctionary to connect string"""
 
 
 def main():
