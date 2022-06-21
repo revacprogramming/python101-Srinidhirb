@@ -8,6 +8,6 @@ for line in fh:
         continue
     count = count +1
     x=float(line[21:])
-    total=x+total
+    total=x+tot al
     y= total/count
 print("Average spam confidence:",y)
